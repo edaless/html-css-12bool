@@ -1,0 +1,16 @@
+
+
+/* debug */
+
+.row{    
+    min-height: 35px;
+}
+
+[class*="col"]{
+    background-color: #2e6dfd;
+    border: 1px solid white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
