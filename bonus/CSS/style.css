@@ -1,0 +1,35 @@
+
+
+
+
+h4{    
+    margin: 0 20px;
+}
+
+.container{
+    
+    margin: 20px;
+}
+/* 
+.row{    
+    min-height: 35px;
+} */
+
+[class*="col"]{
+    background-color: #2e6dfd;
+    border: 1px solid white; 
+    padding: 10px;
+    min-height: 35px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: white;
+}
+
+
+
+.row .row [class*="col"]{
+    background-color: #49e15e;
+    border: 1px solid #2e6dfd;
+    font-size: 8px;
+}
