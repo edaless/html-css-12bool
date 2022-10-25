@@ -10,9 +10,9 @@ h4{
     
     margin: 20px;
 }
-/* 
-.row{    
-    min-height: 35px;
+
+/* .row{    
+    background-color: brown;
 } */
 
 [class*="col"]{
@@ -25,6 +25,7 @@ h4{
     /* align-items: center; */
     color: white;
 }
+
 
 
 
